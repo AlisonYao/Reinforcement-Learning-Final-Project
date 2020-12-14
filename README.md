@@ -10,3 +10,9 @@ https://drive.google.com/drive/folders/1BFHZBoMicYDM4pWs9ohJ1yKYJcAqIvt4?usp=sha
 ## project instructions
 
 https://docs.google.com/document/d/16dfPlTdcFnjsxMW02LhVGd6Ommpnekb84wiUCNHwl_8/edit?usp=sharing
+
+## hpc command lines
+
+sbatch XXX.sh
+squeue -u yy2564
+scancel _job_id_
