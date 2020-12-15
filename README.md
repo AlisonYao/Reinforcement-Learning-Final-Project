@@ -17,11 +17,13 @@ scancel _job_id_
 
 ### plotting
 
-command line: (drl) Alisons-MacBook-Pro:hw1 zhuang$ python -m spinup.run plot -s 10 SAC_ep500_rs1000_hopper-v2/ SAC_ep500_rs10000_hopper-v2/ SAC_ep500_rs100000_hopper-v2/ SAC_ep500_rs1000000_hopper-v2/ --value Performance
+command line: (drl) Alisons-MacBook-Pro:hw1 zhuang$ python -m spinup.run plot -s 10 SAC_ep500_rs1000_hopper-v2/ SAC_ep500_rs10000_hopper-v2/ SAC_ep500_rs100000_hopper-v2/ SAC_ep500_rs1000000_hopper-v2/ --value **Performance**
 
 command line: (drl) Alisons-MacBook-Pro:hw1 zhuang$ python -m spinup.run plot -s 10 SAC_ep500_deter_hopper-v2/ SAC_ep500_rs1000000_hopper-v2/ --value Performance --legend deterministic stochastic
 
 command line: (drl) Alisons-MacBook-Pro:hw1 zhuang$ python -m spinup.run plot -s 10 SAC_ep500_p0-5_hopper-v2/ SAC_ep500_p0-95_hopper-v2/ SAC_ep500_rs1000000_hopper-v2/ --value Performance --legend polyak0.5 polyak0.95 default
+
+command line: (drl) Alisons-MacBook-Pro:hw1 zhuang$ python -m spinup.run plot -s 10 SAC_ep500_p0-5_hopper-v2/ SAC_ep500_p0-95_hopper-v2/ SAC_ep500_rs1000000_hopper-v2/ --value **AverageQ1Vals** --legend polyak0.5 polyak0.95 default
 
 ## project instructions
 
