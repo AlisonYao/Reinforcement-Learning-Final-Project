@@ -31,13 +31,13 @@ https://docs.google.com/document/d/16dfPlTdcFnjsxMW02LhVGd6Ommpnekb84wiUCNHwl_8/
 
 ### project hpc
 
-python -m spinup.run plot -s 10 projectMSAC_ep1000_k1_ant-v2/ projectMSAC_ep1000_k5_ant-v2/ projectMSAC_ep1000_sv_k1_ant-v2/ projectMSAC_ep1000_sv_k5_ant-v2/ --value Performance --legend SAC MSAC5 SAC-Single MSAC-Single5 --ylabel avg_test_return_Ant-v2
+python -m spinup.run plot -s 10 projectMSAC_ep1000_k1_ant-v2/ projectMSAC_ep1000_k5_ant-v2/ projectMSAC_ep1000_sv_k1_ant-v2/ projectMSAC_ep1000_sv_k5_ant-v2/ --value Performance --legend SAC MSAC5 SAC-Single MSAC-Single5 --ylabel Performance_Ant-v2
 
 python -m spinup.run plot -s 10 projectMSAC_ep1000_k1_ant-v2/ projectMSAC_ep1000_k5_ant-v2/ projectMSAC_ep1000_sv_k1_ant-v2/ projectMSAC_ep1000_sv_k5_ant-v2/ --value AverageQ1Vals --legend SAC MSAC5 SAC-Single MSAC-Single5 --ylabel AverageQ1Vals_Ant-v2
 
 python -m spinup.run plot -s 10 projectMSAC_ep1000_k1_ant-v2/ projectMSAC_ep1000_k5_ant-v2/ projectMSAC_ep1000_sv_k1_ant-v2/ projectMSAC_ep1000_sv_k5_ant-v2/ --value AverageQBias --legend SAC MSAC5 SAC-Single MSAC-Single5 --ylabel AverageQBias_Ant-v2
 
-python -m spinup.run plot -s 10 projectMSAC_ep1000_k1_hopper-v2/ projectMSAC_ep1000_k5_hopper-v2/ projectMSAC_ep1000_sv_k1_hopper-v2/ projectMSAC_ep1000_sv_k5_hopper-v2/ --value Performance --legend SAC MSAC5 SAC-Single MSAC-Single5 --ylabel avg_test_return_Hopper-v2
+python -m spinup.run plot -s 10 projectMSAC_ep1000_k1_hopper-v2/ projectMSAC_ep1000_k5_hopper-v2/ projectMSAC_ep1000_sv_k1_hopper-v2/ projectMSAC_ep1000_sv_k5_hopper-v2/ --value Performance --legend SAC MSAC5 SAC-Single MSAC-Single5 --ylabel Performance_Hopper-v2
 
 python -m spinup.run plot -s 10 projectMSAC_ep1000_k1_hopper-v2/ projectMSAC_ep1000_k5_hopper-v2/ projectMSAC_ep1000_sv_k1_hopper-v2/ projectMSAC_ep1000_sv_k5_hopper-v2/ --value AverageQ1Vals --legend SAC MSAC5 SAC-Single MSAC-Single5 --ylabel AverageQ1Vals_Hopper-v2
 
@@ -45,13 +45,13 @@ python -m spinup.run plot -s 10 projectMSAC_ep1000_k1_hopper-v2/ projectMSAC_ep1
 
 ---
 
-python -m spinup.run plot -s 10 projectMSAC_ep1000_sv_k1_ant-v2/ projectMSAC-single_ep1000_sv_k2_ant-v2/ projectMSAC_ep1000_sv_k5_ant-v2/ projectMSAC-single_ep1000_sv_k8_ant-v2/ --value Performance --legend SAC-Single MSAC-Single2 MSAC-Single5 MSAC-Single8 --ylabel avg_test_return_Ant-v2
+python -m spinup.run plot -s 10 projectMSAC_ep1000_sv_k1_ant-v2/ projectMSAC-single_ep1000_sv_k2_ant-v2/ projectMSAC_ep1000_sv_k5_ant-v2/ projectMSAC-single_ep1000_sv_k8_ant-v2/ --value Performance --legend SAC-Single MSAC-Single2 MSAC-Single5 MSAC-Single8 --ylabel Performance_Ant-v2
 
 python -m spinup.run plot -s 10 projectMSAC_ep1000_sv_k1_ant-v2/ projectMSAC-single_ep1000_sv_k2_ant-v2/ projectMSAC_ep1000_sv_k5_ant-v2/ projectMSAC-single_ep1000_sv_k8_ant-v2/ --value AverageQ1Vals --legend SAC-Single MSAC-Single2 MSAC-Single5 MSAC-Single8 --ylabel AverageQ1Vals_Ant-v2
 
 python -m spinup.run plot -s 10 projectMSAC_ep1000_sv_k1_ant-v2/ projectMSAC-single_ep1000_sv_k2_ant-v2/ projectMSAC_ep1000_sv_k5_ant-v2/ projectMSAC-single_ep1000_sv_k8_ant-v2/ --value AverageQBias --legend SAC-Single MSAC-Single2 MSAC-Single5 MSAC-Single8 --ylabel AverageQBias_Ant-v2
 
-python -m spinup.run plot -s 10 projectMSAC_ep1000_sv_k1_hopper-v2/ projectMSAC-single_ep1000_sv_k2_hopper-v2/ projectMSAC_ep1000_sv_k5_hopper-v2/ projectMSAC-single_ep1000_sv_k8_hopper-v2/ --value Performance --legend SAC-Single MSAC-Single2 MSAC-Single5 MSAC-Single8 --ylabel avg_test_return_Hopper-v2
+python -m spinup.run plot -s 10 projectMSAC_ep1000_sv_k1_hopper-v2/ projectMSAC-single_ep1000_sv_k2_hopper-v2/ projectMSAC_ep1000_sv_k5_hopper-v2/ projectMSAC-single_ep1000_sv_k8_hopper-v2/ --value Performance --legend SAC-Single MSAC-Single2 MSAC-Single5 MSAC-Single8 --ylabel Performance_Hopper-v2
 
 python -m spinup.run plot -s 10 projectMSAC_ep1000_sv_k1_hopper-v2/ projectMSAC-single_ep1000_sv_k2_hopper-v2/ projectMSAC_ep1000_sv_k5_hopper-v2/ projectMSAC-single_ep1000_sv_k8_hopper-v2/ --value AverageQ1Vals --legend SAC-Single MSAC-Single2 MSAC-Single5 MSAC-Single8 --ylabel AverageQ1Vals_Hopper-v2
 
