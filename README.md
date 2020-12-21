@@ -65,4 +65,6 @@ python -m spinup.run plot -s 10 projectMSAC_ep1000_k1_hopper-v2/ projectMSAC_ep1
 
 ---
 
-python -m spinup.run plot -s 10 projectMSAC_ep1000_sv_k1_ant-v2/ projectMSAC-single_ep1000_sv_k2_ant-v2/ projectMSAC_ep1000_sv_k5_ant-v2/ projectMSAC-single_ep1000_sv_k8_ant-v2/ --value AverageQ1Vals-AverageQ2Vals --legend SAC-Single MSAC-Single2 MSAC-Single5 MSAC-Single8 --ylabel test_Ant-v2
+python -m spinup.run plot -s 10 projectMSAC_ep1000_k1_ant-v2/ projectMSAC_ep1000_k5_ant-v2/ projectMSAC_ep1000_sv_k1_ant-v2/ projectMSAC_ep1000_sv_k5_ant-v2/ projectMSAC-single_ep1000_sv_k2_ant-v2/ projectMSAC_ep1000_sv_k5_ant-v2/ projectMSAC-single_ep1000_sv_k8_ant-v2/ --value NumDatapoints --legend SAC MSAC5 SAC-Single MSAC-Single5 MSAC-Single2 MSAC-Single5 MSAC-Single8 --ylabel Datapoints_Ant-v2
+
+python -m spinup.run plot -s 10 projectMSAC_ep1000_k1_hopper-v2/ projectMSAC_ep1000_k5_hopper-v2/ projectMSAC_ep1000_sv_k1_hopper-v2/ projectMSAC_ep1000_sv_k5_hopper-v2/ projectMSAC-single_ep1000_sv_k2_hopper-v2/ projectMSAC_ep1000_sv_k5_hopper-v2/ projectMSAC-single_ep1000_sv_k8_hopper-v2/ --value NumDatapoints --legend SAC MSAC5 SAC-Single MSAC-Single5 MSAC-Single2 MSAC-Single5 MSAC-Single8 --ylabel Datapoints_Hopper-v2
