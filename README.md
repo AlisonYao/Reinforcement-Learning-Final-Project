@@ -6,6 +6,6 @@ CSCI-SHU 375 Reinforcement Learning | Fall2020 | Final Project
 
 ## Project Report & Codes
 
-Please see `AlisonYao_RL_project.pdf`.
+Please see `AlisonYao_RL_project.pdf`. 
 
 All codes are in `code & hpc` directory.
